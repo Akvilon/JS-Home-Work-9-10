@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/jquery.jcarousel.min.js"></script>
+	<script src="js/jquery.jcarousel-control.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<script src="js/jquery.menu.js"></script>
+	<script src="js/script.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="jcarousel_wrapper">
+		<div class="jcarousel">
+    		<ul>
+        		<li><img src="img/1.jpg" height="200" width="300"></li>
+        		<li><img src="img/2.jpg" height="200" width="300"></li>
+        		<li><img src="img/3.jpg" height="200" width="300"></li>
+        		<li><img src="img/4.jpg" height="200" width="300"></li>
+        		<li><img src="img/5.jpg" height="200" width="300"></li>
+        		<li><img src="img/6.jpg" height="200" width="300"></li>
+        		<li><img src="img/7.jpg" height="200" width="300"></li>
+        		<li><img src="img/8.jpg" height="200" width="300"></li>
+        		<li><img src="img/9.jpg" height="200" width="300"></li>
+    		</ul>
+		</div>
+
+		<div class="arrows left_arrow"><a class="jcarousel-prev" href="#"><img src="img/left_arrow.png" height="50" width="50"></a></div>
+    	<div class="arrows right_arrow"><a class="jcarousel-next" href="#"><img src="img/right_arrow.png" height="50" width="50"></a></div>
+
+	</div>
+	<nav>
+         	<ul class="menu">
+                <li class="menu_item"><a href="#">Nav 1</a>
+                    <ul class="drop_menu">
+                        <li><a href="#">Nav 1.1</a></li>
+                        <li><a href="#">Nav 1.2</a></li>
+                        <li><a href="#">Nav 1.3</a></li>
+                        <li><a href="#">Nav 1.4</a></li>
+                        <li><a href="#">Nav 1.5</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item"><a href="#">Nav 2</a>
+                    <ul class="drop_menu">
+                        <li><a href="#">Nav 2.1</a></li>
+                        <li><a href="#">Nav 2.2</a></li>
+                        <li><a href="#">Nav 2.3</a></li>
+                        <li><a href="#">Nav 2.4</a></li>
+                        <li><a href="#">Nav 2.5</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item"><a href="#">Nav 3</a>
+                    <ul class="drop_menu">
+                        <li><a href="#">Nav 3.1</a></li>
+                        <li><a href="#">Nav 3.2</a></li>
+                        <li><a href="#">Nav 3.3</a></li>
+                        <li><a href="#">Nav 3.4</a></li>
+                        <li><a href="#">Nav 3.5</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item"><a href="#">Nav 4</a>
+                    <ul class="drop_menu">
+                        <li><a href="#">Nav 4.1</a></li>
+                        <li><a href="#">Nav 4.2</a></li>
+                        <li><a href="#">Nav 4.3</a></li>
+                        <li><a href="#">Nav 4.4</a></li>
+                        <li><a href="#">Nav 4.5</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item"><a href="#">Nav 5</a>
+                    <ul class="drop_menu">
+                        <li><a href="#">Nav 5.1</a></li>
+                        <li><a href="#">Nav 5.2</a></li>
+                        <li><a href="#">Nav 5.3</a></li>
+                        <li><a href="#">Nav 5.4</a></li>
+                        <li><a href="#">Nav 5.5</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </nav>
+
+
+	<div class="container">
+
+		<div class="checkboxes_group1">
+
+			<h2 class="quest2">Do you want to visit any beautiful island this year?</h2>
+
+			<div><label for="ch1" class="lb">Yes!</label><input type="checkbox" class="myCheck" id="ch1" tabindex="1" style="margin-left: -100px;"></div>
+			<div><label for="ch2" class="lb">No</label><input type="checkbox" class="myCheck" checked="checked" id="ch2" tabindex="2" value="2" style="margin-left: -100px";></div>
+			<div><label for="ch3" class="lb">I should ask my wife first...</label><input type="checkbox" class="myCheck" id="ch3" checked="checked" disabled="disabled" style="margin-left: -100px;""></div>
+		</div>
+
+		<div class="select_wrapper">
+			<h2 class="quest1">What's your favorite island?</h2>
+
+			<select>
+  				<option value="1">Seychelles</option>
+  				<option value="2">Mallorca</option>
+  				<option value="3">Sri Lanka</option>
+  				<option value="4">Maldives</option>
+  				<option value="5">Bora Bora, French Polynesia</option>
+  				<option value="6">Palawan, Philippines</option>
+  				<option value="7">Bali, Indonesia</option>
+  				<option value="8">Fiji</option>
+			</select>
+		</div>
+	</div>
+
+	<h2 class="quest3">Determine please, how much money you are willing <br> to spend for your vocation?</h2>
+
+	<div class="checkboxes_group2">
+		<div><input type="checkbox" class="css_check" id="check1">
+		<label for="check1" class="css_lb first">about 1000 $</label></div>
+		<div><input type="checkbox" class="css_check" id="check2">
+		<label for="check2" class="css_lb">from 1000 to 5000 $</label></div>
+		<div><input type="checkbox" class="css_check" id="check3">
+		<label for="check3" class="css_lb third">over 5000 $</label></div>
+	</div>
+
+</body>
+</html>
